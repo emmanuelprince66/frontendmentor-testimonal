@@ -1,0 +1,23 @@
+@import 'section';
+@import 'card';
+@import 'text';
+@import 'mobile';
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background:hsl(210, 46%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
